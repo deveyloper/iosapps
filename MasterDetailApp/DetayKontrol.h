@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetayKontrol.h
 //  MasterDetailApp
 //
 //  Created by fatih on 11/01/14.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DetayKontrol : UIViewController
+
+@property int detayID;
+@property NSString * detayName;
 
 @end

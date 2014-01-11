@@ -14,13 +14,14 @@
 		3DA5AD3B1881ECC6008C9CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5AD3A1881ECC6008C9CC3 /* main.m */; };
 		3DA5AD3F1881ECC6008C9CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5AD3E1881ECC6008C9CC3 /* AppDelegate.m */; };
 		3DA5AD421881ECC6008C9CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA5AD401881ECC6008C9CC3 /* Main.storyboard */; };
-		3DA5AD451881ECC6008C9CC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5AD441881ECC6008C9CC3 /* ViewController.m */; };
 		3DA5AD471881ECC6008C9CC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA5AD461881ECC6008C9CC3 /* Images.xcassets */; };
 		3DA5AD4E1881ECC6008C9CC3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA5AD4D1881ECC6008C9CC3 /* XCTest.framework */; };
 		3DA5AD4F1881ECC6008C9CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA5AD2E1881ECC5008C9CC3 /* Foundation.framework */; };
 		3DA5AD501881ECC6008C9CC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA5AD321881ECC5008C9CC3 /* UIKit.framework */; };
 		3DA5AD581881ECC6008C9CC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DA5AD561881ECC6008C9CC3 /* InfoPlist.strings */; };
 		3DA5AD5A1881ECC6008C9CC3 /* MasterDetailAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5AD591881ECC6008C9CC3 /* MasterDetailAppTests.m */; };
+		3DA5AD651881EE73008C9CC3 /* TabloKontrol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5AD641881EE73008C9CC3 /* TabloKontrol.m */; };
+		3DA5AD681881F03F008C9CC3 /* DetayKontrol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5AD671881F03E008C9CC3 /* DetayKontrol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		3DA5AD3D1881ECC6008C9CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DA5AD3E1881ECC6008C9CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3DA5AD411881ECC6008C9CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DA5AD431881ECC6008C9CC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DA5AD441881ECC6008C9CC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DA5AD461881ECC6008C9CC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DA5AD4C1881ECC6008C9CC3 /* MasterDetailAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterDetailAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA5AD4D1881ECC6008C9CC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3DA5AD551881ECC6008C9CC3 /* MasterDetailAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterDetailAppTests-Info.plist"; sourceTree = "<group>"; };
 		3DA5AD571881ECC6008C9CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DA5AD591881ECC6008C9CC3 /* MasterDetailAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterDetailAppTests.m; sourceTree = "<group>"; };
+		3DA5AD631881EE73008C9CC3 /* TabloKontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabloKontrol.h; sourceTree = "<group>"; };
+		3DA5AD641881EE73008C9CC3 /* TabloKontrol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabloKontrol.m; sourceTree = "<group>"; };
+		3DA5AD661881F03E008C9CC3 /* DetayKontrol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetayKontrol.h; sourceTree = "<group>"; };
+		3DA5AD671881F03E008C9CC3 /* DetayKontrol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetayKontrol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		3DA5AD221881ECC5008C9CC3 = {
 			isa = PBXGroup;
 			children = (
+				3DA5AD661881F03E008C9CC3 /* DetayKontrol.h */,
+				3DA5AD671881F03E008C9CC3 /* DetayKontrol.m */,
 				3DA5AD341881ECC5008C9CC3 /* MasterDetailApp */,
 				3DA5AD531881ECC6008C9CC3 /* MasterDetailAppTests */,
 				3DA5AD2D1881ECC5008C9CC3 /* Frameworks */,
@@ -115,10 +120,10 @@
 				3DA5AD3D1881ECC6008C9CC3 /* AppDelegate.h */,
 				3DA5AD3E1881ECC6008C9CC3 /* AppDelegate.m */,
 				3DA5AD401881ECC6008C9CC3 /* Main.storyboard */,
-				3DA5AD431881ECC6008C9CC3 /* ViewController.h */,
-				3DA5AD441881ECC6008C9CC3 /* ViewController.m */,
 				3DA5AD461881ECC6008C9CC3 /* Images.xcassets */,
 				3DA5AD351881ECC6008C9CC3 /* Supporting Files */,
+				3DA5AD631881EE73008C9CC3 /* TabloKontrol.h */,
+				3DA5AD641881EE73008C9CC3 /* TabloKontrol.m */,
 			);
 			path = MasterDetailApp;
 			sourceTree = "<group>";
@@ -249,7 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA5AD451881ECC6008C9CC3 /* ViewController.m in Sources */,
+				3DA5AD651881EE73008C9CC3 /* TabloKontrol.m in Sources */,
+				3DA5AD681881F03F008C9CC3 /* DetayKontrol.m in Sources */,
 				3DA5AD3F1881ECC6008C9CC3 /* AppDelegate.m in Sources */,
 				3DA5AD3B1881ECC6008C9CC3 /* main.m in Sources */,
 			);
